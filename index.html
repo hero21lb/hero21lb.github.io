@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Desarrollador de Software</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#" class="logo">Nahuel <span>Lemus</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#sobre-mi" data-i18n="nav_about">Sobre mí</a>
+      <a href="#proyecto" data-i18n="nav_project">Proyecto</a>
+      <a href="#experiencia" data-i18n="nav_exp">Experiencia</a>
+      <a href="#trabajo" data-i18n="nav_work">Forma de trabajo</a>
+      <a href="#contacto" class="nav-cta" data-i18n="nav_contact">Contacto</a>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Cambiar idioma" type="button">EN</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero container">
+    <p class="eyebrow" data-i18n="eyebrow">Desarrollador de software · Creador de productos</p>
+    <h1 data-i18n="hero_title">Construyo productos digitales que resuelven problemas reales.</h1>
+    <p class="hero-lead" data-i18n="hero_lead">
+      Desarrollo aplicaciones web, móviles y herramientas de automatización que solucionan problemas
+      del mundo real. Mi trabajo abarca desde la arquitectura de backend y bases de datos hasta el
+      diseño UX/UI, ayudando a convertir ideas en productos confiables, fáciles de usar y construidos
+      para durar.
+    </p>
+    <div class="hero-actions">
+      <a href="#proyecto" class="btn btn-primary" data-i18n="btn_project">Ver Stock al Toque</a>
+      <a href="#contacto" class="btn btn-secondary" data-i18n="btn_contact">Hablemos de tu proyecto</a>
+    </div>
+  </section>
+
+  <hr class="divider container">
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mi" class="section container">
+    <div class="section-grid">
+      <div class="section-heading">
+        <span class="section-number">01</span>
+        <h2 data-i18n="about_h2">Sobre mí</h2>
+      </div>
+      <div class="section-content">
+        <p data-i18n="about_p1">
+          Empecé como técnico químico, un oficio que me enseñó a pensar en procesos: entender un
+          sistema completo antes de tocar una sola variable. Con el tiempo, esa forma de trabajar
+          se trasladó al software — y terminó siendo lo que más disfruto hacer.
+        </p>
+        <p data-i18n="about_p2">
+          Hoy diseño y desarrollo aplicaciones web y móviles de punta a punta: backend con
+          <strong> Python (FastAPI)</strong> y <strong>PostgreSQL</strong>, además de trabajo en
+          <strong> Kotlin</strong>, <strong>C#</strong>, <strong>Java</strong> y <strong>C++</strong>
+          según lo que el proyecto necesite. También me ocupo del diseño UX/UI y del branding,
+          porque creo que un buen producto no se separa de cómo se ve y se siente.
+        </p>
+        <p data-i18n="about_p3">
+          Por fuera del código, trabajo con <strong>Blender</strong> para modelado 3D, experimento
+          con <strong>IA local y automatización</strong>, y resuelvo problemas de hardware y
+          software cuando hace falta. Vengo de la atención al cliente, así que sé escuchar lo que
+          un usuario necesita aunque no sepa explicarlo con palabras técnicas.
+        </p>
+        <p class="quote" data-i18n="about_quote">
+          No busco hacer "lo último en tecnología" — busco que el sistema funcione, que la
+          persona que lo usa lo entienda, y que siga funcionando dentro de dos años.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider container">
+
+  <!-- PROYECTO DESTACADO -->
+  <section id="proyecto" class="section container">
+    <div class="section-grid">
+      <div class="section-heading">
+        <span class="section-number">02</span>
+        <h2 data-i18n="project_h2">Proyecto destacado</h2>
+      </div>
+      <div class="section-content">
+        <article class="project">
+          <div class="project-header">
+            <img src="assets/stock-al-toque-logo.png" alt="" class="project-logo">
+            <div class="project-title-group">
+              <h3>Stock al Toque</h3>
+              <p class="project-slogan" data-i18n="project_slogan">Del cuaderno a tu celular.</p>
+            </div>
+            <span class="status-tag">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span data-i18n="status_tag">En producción</span>
+            </span>
+          </div>
+          <p class="project-summary" data-i18n="project_summary">
+            Sistema de gestión de stock, proveedores, cuentas y precios pensado para comercios
+            que necesitan orden sin complicarse. Hoy está en funcionamiento real y en proceso
+            de comercialización.
+          </p>
+
+          <div class="project-details">
+            <div class="detail-block detail-rose">
+              <span class="detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </span>
+              <div>
+                <h4 data-i18n="h_problem">El problema</h4>
+                <p data-i18n="problem_p">
+                  Muchos comercios manejan su stock en planillas sueltas, cuadernos o sistemas
+                  viejos que no se comunican entre sí. Esto genera errores de precios, pedidos
+                  duplicados a proveedores y falta de visibilidad sobre qué se tiene y qué falta.
+                </p>
+              </div>
+            </div>
+            <div class="detail-block detail-green">
+              <span class="detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+              </span>
+              <div>
+                <h4 data-i18n="h_solution">La solución</h4>
+                <p data-i18n="solution_p">
+                  Una plataforma web centralizada donde se gestiona el inventario, se vinculan
+                  proveedores a productos, se actualizan precios de forma controlada y se llevan
+                  las cuentas asociadas a cada movimiento — todo desde una interfaz pensada para
+                  gente que no es técnica.
+                </p>
+              </div>
+            </div>
+            <div class="detail-block detail-purple">
+              <span class="detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+              </span>
+              <div>
+                <h4 data-i18n="h_stack">Stack técnico</h4>
+                <ul class="tech-list" data-i18n="tech_list">
+                  <li>FastAPI (Python) — API y lógica de negocio</li>
+                  <li>PostgreSQL — persistencia de datos</li>
+                  <li>HTML / CSS / JS — interfaz web</li>
+                  <li>Arquitectura pensada para escalar a múltiples usuarios y sucursales</li>
+                </ul>
+              </div>
+            </div>
+            <div class="detail-block detail-gold">
+              <span class="detail-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              </span>
+              <div>
+                <h4 data-i18n="h_status">Estado actual</h4>
+                <p data-i18n="status_p">
+                  Sistema funcional en uso real, con mejoras continuas basadas en feedback directo
+                  de quienes lo operan día a día. Próximo paso: empaquetarlo como producto para
+                  ofrecerlo a otros comercios.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider container">
+
+  <!-- EXPERIENCIA Y HABILIDADES -->
+  <section id="experiencia" class="section container">
+    <div class="section-grid">
+      <div class="section-heading">
+        <span class="section-number">03</span>
+        <h2 data-i18n="exp_h2">Experiencia y habilidades</h2>
+      </div>
+      <div class="section-content">
+
+        <div class="skills-group">
+          <h3 data-i18n="skills_dev_h">Desarrollo</h3>
+          <ul class="skills-list" data-i18n="skills_dev_list">
+            <li>Python · FastAPI</li>
+            <li>PostgreSQL / SQL</li>
+            <li>Kotlin</li>
+            <li>C#</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Desarrollo web (front + back)</li>
+            <li>Desarrollo de apps móviles</li>
+            <li>Unity</li>
+            <li>Godot</li>
+          </ul>
+        </div>
+
+        <div class="skills-group">
+          <h3 data-i18n="skills_design_h">Diseño y producto</h3>
+          <ul class="skills-list" data-i18n="skills_design_list">
+            <li>Diseño UX/UI</li>
+            <li>Figma</li>
+            <li>Branding e identidad visual</li>
+            <li>Modelado 3D (Blender)</li>
+            <li>Prototipado de productos digitales</li>
+          </ul>
+        </div>
+
+        <div class="skills-group">
+          <h3 data-i18n="skills_sys_h">Sistemas y soporte</h3>
+          <ul class="skills-list" data-i18n="skills_sys_list">
+            <li>IA local y automatización</li>
+            <li>Desarrollo de chatbots</li>
+            <li>Reparación de hardware y software</li>
+            <li>Atención al cliente y soporte técnico</li>
+          </ul>
+        </div>
+
+        <div class="skills-group">
+          <h3 data-i18n="skills_base_h">Base técnica</h3>
+          <ul class="skills-list" data-i18n="skills_base_list">
+            <li>Formación como Técnico Químico</li>
+            <li>Pensamiento orientado a procesos y sistemas</li>
+            <li>Resolución de problemas con criterio práctico</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider container">
+
+  <!-- FORMA DE TRABAJO -->
+  <section id="trabajo" class="section container">
+    <div class="section-grid">
+      <div class="section-heading">
+        <span class="section-number">04</span>
+        <h2 data-i18n="work_h2">Forma de trabajo</h2>
+      </div>
+      <div class="section-content">
+        <ol class="work-process">
+          <li>
+            <h3 data-i18n="work1_h">Entender antes de construir</h3>
+            <p data-i18n="work1_p">
+              Antes de escribir una línea de código, dedico tiempo a entender el problema real:
+              quién lo va a usar, qué oportunidades se presentan, y qué resultado concreto se busca.
+            </p>
+          </li>
+          <li>
+            <h3 data-i18n="work2_h">Avanzar en partes que se puedan ver y probar</h3>
+            <p data-i18n="work2_p">
+              Prefiero entregar versiones funcionales tempranas, aunque sean simples, para
+              recibir feedback real y ajustar el rumbo antes de invertir tiempo en algo que
+              no encaja.
+            </p>
+          </li>
+          <li>
+            <h3 data-i18n="work3_h">Documentar y dejar todo entendible</h3>
+            <p data-i18n="work3_p">
+              Un sistema que solo yo entiendo es un sistema frágil. Documento decisiones,
+              estructuras y procesos para que el proyecto pueda crecer sin depender de una
+              sola persona.
+            </p>
+          </li>
+          <li>
+            <h3 data-i18n="work4_h">Acompañar después de la entrega</h3>
+            <p data-i18n="work4_p">
+              El trabajo no termina cuando el sistema se sube a producción. Doy seguimiento,
+              corrijo lo que aparece en el uso real y ajusto según las necesidades que surgen
+              con el tiempo.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider container">
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section container contact-section">
+    <div class="section-grid">
+      <div class="section-heading">
+        <span class="section-number">05</span>
+        <h2 data-i18n="contact_h2">Contacto</h2>
+      </div>
+      <div class="section-content">
+        <p class="contact-lead" data-i18n="contact_lead">
+          Si tenés un proyecto en mente, un sistema que necesita orden, o simplemente querés
+          conversar sobre una idea — escribime. Respondo personalmente.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:nahuel_lemus@hotmail.com" class="contact-link">
+            <span class="contact-label" data-i18n="contact_email_label">Email</span>
+            <span class="contact-value">nahuel_lemus@hotmail.com</span>
+          </a>
+          <a href="https://github.com/hero21lb" class="contact-link" target="_blank" rel="noopener">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/hero21lb</span>
+          </a>
+          <a href="https://linkedin.com/in/nahuel-lemus" class="contact-link" target="_blank" rel="noopener">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/nahuel-lemus</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p data-i18n="footer_text">© 2026 — Desarrollado y diseñado a mano.</p>
+    <a href="#" class="back-to-top" data-i18n="back_top">Volver arriba ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
