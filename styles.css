@@ -285,6 +285,13 @@ nav a:hover {
   letter-spacing: 0.05em;
 }
 
+.perfil-img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 12px;
+  margin-top: 0.5rem;
+}
+
 .section-content {
   min-width: 0;
 }
