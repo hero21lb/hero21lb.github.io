@@ -32,12 +32,12 @@ ul, ol {
    VARIABLES
    ========================================================= */
 :root {
-  --color-bg: #FAF9F6;
-  --color-bg-alt: #F1EFE9;
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F2F8EF;
   --color-text: #1A1A1A;
   --color-text-soft: #5C5C5C;
-  --color-accent: #B5563C;
-  --color-border: #D8D5CE;
+  --color-accent: #287D25;
+  --color-border: #DCE8DA;
 
   --font-display: "Fraunces", serif;
   --font-body: "IBM Plex Sans", sans-serif;
@@ -687,3 +687,16 @@ button:focus-visible {
     transition: none !important;
   }
 }
+
+/* Nware / Stocke al Toque visual identity, October 2026. */
+:root{--font-display:Arial,"Segoe UI",sans-serif;--font-body:Arial,"Segoe UI",sans-serif}
+*,*::before,*::after{border-radius:0!important}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:700}
+.logo{display:flex;align-items:center;gap:7px}.logo img{object-fit:contain}
+.project{background:#f2f8ef;border:1px solid #dce8da;box-shadow:none}
+.project-header h3{font-family:var(--font-display)}
+.detail-block{background:white}.detail-block h4{color:#287d25}.detail-icon{color:#287d25!important;background:#e5f1e0!important}
+.btn-primary{background:#5cbf4a;border-color:#5cbf4a;color:#122710}.btn-primary:hover{background:#4fa83e;border-color:#4fa83e;color:#122710}
+.career-summary{margin-bottom:36px}.career-item{padding:18px 0;border-bottom:1px solid #dce8da}.career-item h4{margin:0 0 5px}.career-item p{margin:5px 0}.career-meta{color:#287d25;font-size:.9rem}
+.skip-link{position:absolute;top:-100px;left:10px;background:#fff;padding:12px;z-index:100}.skip-link:focus{top:10px}
+@media(max-width:600px){.header-inner{flex-wrap:wrap;gap:15px}.header-inner nav{flex-wrap:wrap;gap:12px}.project-header{flex-wrap:wrap}.hero-actions{align-items:stretch}.hero-actions .btn{text-align:center}}

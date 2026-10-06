@@ -15,7 +15,7 @@ const translations = {
       del mundo real. Mi trabajo abarca desde la arquitectura de backend y bases de datos hasta el
       diseño UX/UI, ayudando a convertir ideas en productos confiables, fáciles de usar y construidos
       para durar.`,
-    btn_project: "Ver Stock al Toque",
+    btn_project: "Ver Stocke al Toque",
     btn_contact: "Hablemos de tu proyecto",
 
     about_h2: "Sobre mí",
@@ -132,7 +132,7 @@ const translations = {
     hero_lead: `I develop web applications, mobile apps and automation tools that solve real-world problems.
       My work spans from backend architecture and databases to UX/UI design, helping turn ideas into
       reliable products that are simple to use and built to last.`,
-    btn_project: "View Stock al Toque",
+    btn_project: "View Stocke al Toque",
     btn_contact: "Let's talk about your project",
 
     about_h2: "About me",
@@ -233,6 +233,54 @@ const translations = {
     back_top: "Back to top ↑",
   },
 };
+
+const cvUpdates = {
+  "es": {
+    "eyebrow": "Desarrollador de software junior · Nware Soluciones",
+    "hero_title": "Del problema cotidiano a una solución que funciona.",
+    "hero_lead": "Soy Nahuel Lautaro Lemus. Desarrollo aplicaciones web con Python, FastAPI y PostgreSQL. Estudio la Tecnicatura Universitaria en Programación en la UTN y construyo productos digitales desde el diseño hasta su implementación.",
+    "btn_project": "Ver Stocke al Toque",
+    "btn_contact": "Contactar",
+    "btn_cv": "Descargar CV",
+    "btn_sat": "Visitar Stocke al Toque",
+    "btn_manual": "Ver manual",
+    "about_p1": "Soy estudiante de segundo año de la Tecnicatura Universitaria en Programación en la UTN y técnico químico. Mi formación me enseñó a trabajar con procesos, registrar resultados y resolver problemas con atención al detalle.",
+    "about_p2": "Mi principal experiencia de desarrollo es <strong>Stocke al Toque</strong>, un producto propio de Nware Soluciones. Trabajo con <strong>Python, FastAPI y PostgreSQL</strong>, y con HTML, CSS y JavaScript para la interfaz. También tengo conocimientos de Java, Kotlin, C# y C++.",
+    "about_p3": "Combino desarrollo con diseño UX/UI y Figma. Exploro automatización e IA local, Godot, Unity y Blender. Mi experiencia en atención al cliente me ayuda a entender las necesidades de quienes utilizan el software.",
+    "about_quote": "Busco oportunidades de desarrollo junior para aportar soluciones prácticas, aprender y crecer en equipo.",
+    "project_summary": "SaaS de gestión comercial de Nware Soluciones para pequeños negocios. Reúne inventario, ventas, cuentas corrientes, proveedores y vencimientos en una aplicación web accesible desde el celular o la computadora.",
+    "tech_list": "<li>Python y FastAPI: backend y API REST</li><li>PostgreSQL, SQLAlchemy y Alembic: datos y migraciones</li><li>HTML, CSS y JavaScript: interfaz PWA</li><li>Arquitectura para múltiples negocios y autenticación</li>",
+    "status_p": "Producto con sitio comercial público, registro y documentación disponibles. Continúo trabajando en su desarrollo y mantenimiento, con funcionalidades de gestión de planes, respaldo e importación y exportación de productos.",
+    "career_summary": "<h3>Experiencia</h3><article class=\"career-item\"><h4>Desarrollo de software independiente</h4><p class=\"career-meta\">Nware Soluciones · 08/2025 - Actualidad</p><p>Desarrollo de productos digitales y herramientas de automatización. Diseño UX/UI, implementación y mantenimiento de aplicaciones.</p></article><article class=\"career-item\"><h4>Atención al cliente y operaciones</h4><p class=\"career-meta\">Minimarket Maria · 12/2022 - Actualidad</p><p>Atención al cliente, manejo de caja, organización de productos, control de inventario y comunicación con proveedores.</p></article><article class=\"career-item\"><h4>Ayudante de laboratorio · Prácticas</h4><p class=\"career-meta\">Laboratorio Enológico Enocuyo · 03/2024 - 04/2024</p><p>Análisis enológicos, preparación de muestras, manejo de equipos y registro de resultados para control de calidad.</p></article>",
+    "education_summary": "<h3>Formación académica</h3><p><strong>Tecnicatura Universitaria en Programación · UTN</strong><br>Segundo año, en curso.</p><p><strong>Técnico Químico</strong><br>Escuela Técnica N° 4-016 Ing. Antonio Marcelo Arboit · 2019 - 2024.</p>",
+    "skills_dev_list": "<li>Python · FastAPI</li><li>PostgreSQL · SQL</li><li>HTML · CSS · JavaScript</li><li>Git · GitHub</li><li>Java · Kotlin · C# · C++</li>",
+    "skills_base_list": "<li>Pensamiento orientado a procesos</li><li>Resolución de problemas</li><li>Atención al detalle y registro de resultados</li>",
+    "contact_lead": "Estoy abierto a oportunidades de desarrollo junior, automatización y proyectos web. Puedes conocer mi trabajo en Stocke al Toque o descargar mi CV. Para conversar, escríbeme por correo o LinkedIn."
+  },
+  "en": {
+    "eyebrow": "Junior software developer · Nware Soluciones",
+    "hero_title": "Turning everyday problems into working solutions.",
+    "hero_lead": "I am Nahuel Lautaro Lemus. I develop web applications with Python, FastAPI and PostgreSQL. I study University Programming at UTN and build digital products from design through implementation.",
+    "btn_project": "Explore Stocke al Toque",
+    "btn_contact": "Contact",
+    "btn_cv": "Download CV (Spanish)",
+    "btn_sat": "Visit Stocke al Toque",
+    "btn_manual": "Read the manual",
+    "about_p1": "I am a second-year University Programming student at UTN and a Chemical Technician. My technical background taught me to work with processes, record results and solve problems with attention to detail.",
+    "about_p2": "My main development project is <strong>Stocke al Toque</strong>, a product of Nware Soluciones. I work with <strong>Python, FastAPI and PostgreSQL</strong>, and HTML, CSS and JavaScript for the interface. I also have knowledge of Java, Kotlin, C# and C++.",
+    "about_p3": "I combine development with UX/UI design and Figma. I explore automation and local AI, Godot, Unity and Blender. My customer service experience helps me understand the needs of software users.",
+    "about_quote": "I am looking for junior development opportunities to contribute practical solutions, learn and grow with a team.",
+    "project_summary": "A business management SaaS by Nware Soluciones for small retailers. It brings inventory, sales, customer accounts, suppliers and expiry dates into one web application accessible from a phone or computer.",
+    "tech_list": "<li>Python and FastAPI: backend and REST API</li><li>PostgreSQL, SQLAlchemy and Alembic: data and migrations</li><li>HTML, CSS and JavaScript: PWA interface</li><li>Multi-business architecture and authentication</li>",
+    "status_p": "A product with a public commercial website, registration and documentation. I continue developing and maintaining it, including plan management, backups and product import and export.",
+    "career_summary": "<h3>Work experience</h3><article class=\"career-item\"><h4>Independent software development</h4><p class=\"career-meta\">Nware Soluciones · 08/2025 - Present</p><p>Development of digital products and automation tools. UX/UI design, implementation and application maintenance.</p></article><article class=\"career-item\"><h4>Customer service and retail operations</h4><p class=\"career-meta\">Minimarket Maria · 12/2022 - Present</p><p>Customer service, cash handling, product organization, inventory monitoring and supplier communication.</p></article><article class=\"career-item\"><h4>Laboratory assistant · Internship</h4><p class=\"career-meta\">Laboratorio Enológico Enocuyo · 03/2024 - 04/2024</p><p>Enological analysis, sample preparation, equipment operation and recording results for quality control.</p></article>",
+    "education_summary": "<h3>Education</h3><p><strong>University Programming degree · UTN</strong><br>Second year, in progress.</p><p><strong>Chemical Technician</strong><br>Escuela Técnica N° 4-016 Ing. Antonio Marcelo Arboit · 2019 - 2024.</p>",
+    "skills_dev_list": "<li>Python · FastAPI</li><li>PostgreSQL · SQL</li><li>HTML · CSS · JavaScript</li><li>Git · GitHub</li><li>Java · Kotlin · C# · C++</li>",
+    "skills_base_list": "<li>Process-oriented thinking</li><li>Problem solving</li><li>Attention to detail and recording results</li>",
+    "contact_lead": "I am open to junior development opportunities, automation and web projects. Explore Stocke al Toque or download my CV. Get in touch by email or LinkedIn."
+  }
+};
+Object.keys(cvUpdates).forEach(lang => Object.assign(translations[lang], cvUpdates[lang]));
 
 /* =========================================================
    LÓGICA DE CAMBIO DE IDIOMA
