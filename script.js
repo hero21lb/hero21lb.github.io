@@ -320,3 +320,4 @@ Object.keys(cvUpdates).forEach(lang => Object.assign(translations[lang], cvUpdat
     applyLanguage(next);
   });
 })();
+
